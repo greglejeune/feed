@@ -49,35 +49,9 @@
         </h2>
 
         <div class="max-w-3xl mx-auto">
-          <p class="text-left max-w-3xl mx-auto mt-12 text-xl leading-7 text-gray-500">
-            Hey 👋 I'm
-            <a href="https://twitter.com/__xuorig__" class="underline-pink">Marc-Andre Giroux</a>!
-          </p>
-
-          <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-            I've always found there was a lack of resources on how to build
-            reliable GraphQL <strong>servers</strong>. Over the last few years,
-            I helped build and maintain some of the biggest GraphQL APIs out
-            there at both Shopify and GitHub. During those years, I also worked
-            with various companies with their adoption of GraphQL. From my
-            experiences with GraphQL, I’ve observed the good, the bad, and the
-            ugly.
-          </p>
-
-          <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-            This led to many
-            <a href="https://www.youtube.com/watch?v=pJamhW2xPYw" class="underline-pink">talks</a>
-            and
-            <a href="https://medium.com/@__xuorig__" class="underline-pink">blog posts</a>
-            on the subject, but still found that teams and individuals willing
-            to use GraphQL in a pragmatic way lacked the resources to do so.
-          </p>
-
-          <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-            This is what lead me to write this book:
-            <strong>A collection of learnings and good practices when building
-              GraphQL schemas at scale.</strong>
-          </p>
+          {% for post in site.posts %}
+            {% post.title %}
+          {% endfor %}
         </div>
       </div>
     </div>
