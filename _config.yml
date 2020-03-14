@@ -1,0 +1,7 @@
+title: Blog
+baseurl: "https://greglejeune.github.io/feed"
+url: ""
+
+markdown: kramdown
+permalink: pretty
+#permalink: /:categories/:title
